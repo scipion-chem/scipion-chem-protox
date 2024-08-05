@@ -72,5 +72,3 @@ class ProtChemProtoxViewer(pwviewer.ProtocolViewer):
             f.write(html_content)
 
         webbrowser.open('file://' + os.path.realpath(html_path))
-
-    

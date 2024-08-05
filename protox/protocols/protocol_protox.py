@@ -4,7 +4,6 @@
 import os
 from urllib.request import urlopen
 
-
 # Specific imports
 from pyworkflow.protocol.params import PointerParam, EnumParam
 from pwem.protocols import EMProtocol
@@ -14,7 +13,6 @@ from pwchem.utils import *
 from protox import Plugin
 import pandas as pd
 from pwchem.constants import RDKIT_DIC
-
 
 class ProtChemProtox(EMProtocol):
 
@@ -157,16 +155,3 @@ class ProtChemProtox(EMProtocol):
             main_name = None
         
         return main_name
-    
-
-       
-
-        
-    
-        
-
-        
-        
-
-    
-    
