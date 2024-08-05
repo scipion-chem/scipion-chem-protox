@@ -28,5 +28,3 @@
 # Version constants
 V1_0 = '1.0'
 PLUGIN_VERSION = '0.1'
-
-# Package dictionaries

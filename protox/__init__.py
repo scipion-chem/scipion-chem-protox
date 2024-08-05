@@ -69,6 +69,3 @@ class Plugin(pwchem.Plugin):
 	@classmethod
 	def getScriptsPath(cls):
 		return cls.getPluginH('scripts/')
-
-
-
